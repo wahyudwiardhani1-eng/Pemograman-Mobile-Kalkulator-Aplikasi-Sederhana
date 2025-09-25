@@ -1,21 +1,21 @@
 import 'dart:io';
 
-// Fungsi untuk penjumlahan
+// penjumlahan
 double tambah(double a, double b) {
   return a + b;
 }
 
-// Fungsi untuk pengurangan
+// pengurangan
 double kurang(double a, double b) {
   return a - b;
 }
 
-// Fungsi untuk perkalian
+// perkalian
 double kali(double a, double b) {
   return a * b;
 }
 
-// Fungsi untuk pembagian
+// pembagian
 double bagi(double a, double b) {
   if (b == 0) {
     print("Error: Tidak bisa dibagi dengan nol!");
